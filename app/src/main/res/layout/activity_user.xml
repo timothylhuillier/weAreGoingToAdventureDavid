@@ -1,0 +1,48 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="email@example.com"
+        android:id="@+id/email"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="0.05"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="David ANNEBICQUE"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="06.33.34.20.42"
+        android:id="@+id/phone"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/connected" />
+    </FrameLayout>
+</LinearLayout>
